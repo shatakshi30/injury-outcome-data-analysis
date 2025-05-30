@@ -6,7 +6,7 @@ This project applies statistical techniques to analyze injury outcomes using dem
 
 ## Dataset
 
-- **Source**: De-identified real-world dataset on injuries suffered by children and adolescents.
+- **Source**: Real-world dataset on injuries suffered by children and adolescents.
 - **Samples**: 203 observations, ages 8–18 years.
 - **Variables**: 19 variables covering demographics (Age, Sex, Race), injury characteristics (Injury Type, Injury Duration), healthcare usage (Care Site), and patient-reported outcomes (Rating2).
 
@@ -73,6 +73,8 @@ install.packages("pROC")
 injury_outcome_analysis.Rmd → Full analysis pipeline (R Markdown)
 
 Injury_Data.csv → Dataset used for the analysis
+
+injury_outcome_analysis(knitted report).docx → Knitted report (Word format)
 
 Data Analysis Project Report.pdf → Final report document
 
